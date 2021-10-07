@@ -1,0 +1,24 @@
+{
+
+    "manifest_version": 2,
+    "name": "Dot JSON",
+    "version": "1.0",
+  
+    "description": "Notify when you visit a site containig a .JSON file.",
+  
+    "icons": {
+      "48": "icons/dot-json-green-48.png",
+      "96": "icons/dot-json-red-48.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "icons/dot-json-green-48.png",
+        "default_title": "Dot JSON"
+    }        
+  
+  }
